@@ -66,7 +66,6 @@ class User(BaseModel):
     email_addresses: List[EmailAddress]
     phone_numbers: List[PhoneNumber]
     external_accounts: List[Any]
-    metadata: Any
     private_metadata: Any
     created_at: int
     updated_at: int
